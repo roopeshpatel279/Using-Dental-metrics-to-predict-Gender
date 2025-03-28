@@ -1,0 +1,33 @@
+**Project Title:** Gender Prediction Using Dental Metrics
+
+**Introduction:**
+This study aims to predict gender based on dental measurements using machine learning models. By analyzing key dental features, we can determine gender with high accuracy, making this approach useful for forensic dentistry applications.
+
+**Dataset Description:**
+- The dataset contains 1100 samples with various dental metrics such as intercanine distances, canine widths, and canine indices.
+- Features include numerical values related to dental measurements.
+- The target variable is "Gender" (Male/Female).
+
+**Data Preprocessing:**
+- Unnecessary columns like "Sample ID" were removed.
+- The dataset was split into features (X) and target variable (Y).
+- Data was divided into training (70%) and testing (30%) sets.
+
+**Machine Learning Models Used:**
+1. **Logistic Regression**
+2. **Random Forest Classifier**
+3. **Decision Tree Classifier**
+4. **Gradient Boosting Classifier**
+5. **XGBoost Classifier** (Best performing model)
+
+**Model Evaluation:**
+Each model was trained and tested on the dataset. The accuracy of each was recorded, and confusion matrices were used to analyze performance. Among the tested models, **XGBoost achieved the highest accuracy.**
+
+**Best Model: XGBoost Classifier**
+- Provided the best classification accuracy.
+- Reliable for forensic dentistry applications.
+- Future improvements could include additional dental features and a larger dataset.
+
+**Conclusion:**
+This study successfully demonstrated that gender can be predicted using dental metrics with high accuracy. The **XGBoost model** performed the best, making it a valuable tool for forensic and dental research. Future work may involve incorporating additional dental measurements to improve accuracy further.
+
